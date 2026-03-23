@@ -2,7 +2,7 @@ const express = require("express");
 const fetch = require("node-fetch");
 const app = express();
 
-const API_KEY = "ВСТАВЬ_СЮДА_API_KEY";
+const API_KEY = "8d6bdc53-c2a2-4da6-a24d-894fff86b410";
 const NICKNAME = "alcanttare";
 
 app.get("/faceit", async (req, res) => {
